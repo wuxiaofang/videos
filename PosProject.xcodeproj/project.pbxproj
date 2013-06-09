@@ -30,10 +30,6 @@
 		5CE2E0D71761D02F00C7DA92 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5CE2E0C31761D02F00C7DA92 /* README.md */; };
 		5CE2E0D81761D02F00C7DA92 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2E0C61761D02F00C7DA92 /* Reachability.m */; };
 		5CE2E0D91761D02F00C7DA92 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5CE2E0C71761D02F00C7DA92 /* README.md */; };
-		5CE2E0E01761D03D00C7DA92 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5CE2E0DB1761D03D00C7DA92 /* LICENSE.txt */; };
-		5CE2E0E11761D03D00C7DA92 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5CE2E0DC1761D03D00C7DA92 /* README.md */; };
-		5CE2E0E21761D03D00C7DA92 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CE2E0DD1761D03D00C7DA92 /* SVProgressHUD.bundle */; };
-		5CE2E0E31761D03D00C7DA92 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2E0DF1761D03D00C7DA92 /* SVProgressHUD.m */; };
 		A6D9A4271734ED2700836D0A /* PosParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D9A4261734ED2700836D0A /* PosParser.m */; };
 		A6F8842F1734BB580006307B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F8842E1734BB580006307B /* UIKit.framework */; };
 		A6F884311734BB580006307B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F884301734BB580006307B /* Foundation.framework */; };
@@ -98,11 +94,6 @@
 		5CE2E0C51761D02F00C7DA92 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		5CE2E0C61761D02F00C7DA92 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		5CE2E0C71761D02F00C7DA92 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		5CE2E0DB1761D03D00C7DA92 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		5CE2E0DC1761D03D00C7DA92 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		5CE2E0DD1761D03D00C7DA92 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		5CE2E0DE1761D03D00C7DA92 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
-		5CE2E0DF1761D03D00C7DA92 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		A6D9A4251734ED2700836D0A /* PosParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PosParser.h; sourceTree = "<group>"; };
 		A6D9A4261734ED2700836D0A /* PosParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PosParser.m; sourceTree = "<group>"; };
 		A6F8842B1734BB580006307B /* PosProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PosProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,7 +164,6 @@
 		5CE2E0A31761D02F00C7DA92 /* vendor */ = {
 			isa = PBXGroup;
 			children = (
-				5CE2E0DA1761D03D00C7DA92 /* SVProgressHUD */,
 				5CE2E0A41761D02F00C7DA92 /* AFNetworking */,
 				5CE2E0BC1761D02F00C7DA92 /* base64 */,
 				5CE2E0BF1761D02F00C7DA92 /* JSONKit */,
@@ -240,18 +230,6 @@
 				5CE2E0C71761D02F00C7DA92 /* README.md */,
 			);
 			path = Reachability;
-			sourceTree = "<group>";
-		};
-		5CE2E0DA1761D03D00C7DA92 /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				5CE2E0DB1761D03D00C7DA92 /* LICENSE.txt */,
-				5CE2E0DC1761D03D00C7DA92 /* README.md */,
-				5CE2E0DD1761D03D00C7DA92 /* SVProgressHUD.bundle */,
-				5CE2E0DE1761D03D00C7DA92 /* SVProgressHUD.h */,
-				5CE2E0DF1761D03D00C7DA92 /* SVProgressHUD.m */,
-			);
-			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		A6F884221734BB580006307B = {
@@ -470,9 +448,6 @@
 				5CE2E0D51761D02F00C7DA92 /* CHANGELOG.md in Resources */,
 				5CE2E0D71761D02F00C7DA92 /* README.md in Resources */,
 				5CE2E0D91761D02F00C7DA92 /* README.md in Resources */,
-				5CE2E0E01761D03D00C7DA92 /* LICENSE.txt in Resources */,
-				5CE2E0E11761D03D00C7DA92 /* README.md in Resources */,
-				5CE2E0E21761D03D00C7DA92 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +483,6 @@
 				5CE2E0D41761D02F00C7DA92 /* base64.m in Sources */,
 				5CE2E0D61761D02F00C7DA92 /* JSONKit.m in Sources */,
 				5CE2E0D81761D02F00C7DA92 /* Reachability.m in Sources */,
-				5CE2E0E31761D03D00C7DA92 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

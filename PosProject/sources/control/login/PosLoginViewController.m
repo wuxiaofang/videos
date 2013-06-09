@@ -8,7 +8,6 @@
 
 #import "PosLoginViewController.h"
 #import "PosCore.h"
-#import "SVProgressHUD.h"
 
 @interface PosLoginViewController ()
 @property (nonatomic,retain)UIButton* loginButton;
