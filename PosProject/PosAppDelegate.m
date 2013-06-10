@@ -18,6 +18,8 @@
 
 - (void)dealloc
 {
+    
+    
     [_window release];
     self.posRootViewControl = nil;
     [super dealloc];
